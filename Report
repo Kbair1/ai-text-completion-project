@@ -1,0 +1,21 @@
+Prompt 1: The water cycle includes…
+Response: The water cycle consists of evaporation, condensation, precipitation, and collection. Water rises, forms clouds, then returns to the Earth as rain or snow.
+Settings: Temperature = 0.5, Max Tokens = 80
+
+Prompt 2: Once upon a time, there was a robot who wanted to become human…”
+Response: Once upon a time, there was a robot who wanted to become human. Every day, he observed people laughing, crying, and dreaming—things he couldn’t compute.
+Settings: Temperature = 0.8, Max Tokens = 100
+
+Prompt 3: Write a haiku about the ocean.”
+Response: Waves crash on the shore
+ Salted breeze and distant cries
+ Endless blue whispers
+Settings: Temperature = 0.9, Max Tokens = 30
+
+Prompt 4: “What is a computer?”
+Response: A computer is a machine that helps you do things like write, play games, watch videos, or go on the internet.
+Settings: Temperature = 0.6, Max Tokens = 80
+
+
+
+When it came to the responses I thought each answer was pretty well made. I thought it was interesting to see how lowering the temperature made some answers like prompt one, and how increasing it changed others like prompt 2. The model performed well when explaining things to me. Like prompt 1 and 2. It struggles a little with creative topics, but not too much. I think just playing with the temperature and seeing what are the correct parameters for each question would help. 
