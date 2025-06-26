@@ -1,0 +1,17 @@
+# AI Text Completion App
+
+This is a simple Python program that uses the OpenAI API to generate text based on user input.
+
+## Setup
+
+1. Install Python if it's not already installed.
+2. Install the required libraries using:
+
+Follow the prompts in the terminal to enter text. Type `bye` to exit.
+
+## Dependencies
+
+- openai
+- python-dotenv
+
+Enjoy :)
