@@ -1,0 +1,32 @@
+import openai
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+def generate_text(prompt):
+    try:
+        response = openai.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=100
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        return "Error: " + str(e)
+
+def main():
+    print("Text Completion App")
+    while True:
+        prompt = input("Enter prompt (or 'bye' to quit): ")
+        if prompt == "bye":
+            break
+        if prompt == "":
+            print("Prompt can't be empty.")
+            continue
+
+        result = generate_text(prompt)
+        print("AI says:", result)
+
+main()
